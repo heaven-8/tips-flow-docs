@@ -13,6 +13,21 @@
   },
   "navigation": {
     "global": {
+      "languages": [
+        {
+          "language": "en",
+          "href": "/",
+          "default": true
+        },
+        {
+          "language": "es",
+          "href": "/es"
+        },
+        {
+          "language": "tr",
+          "href": "/tr"
+        }
+      ],
       "versions": [
         {
           "version": "Latest",
