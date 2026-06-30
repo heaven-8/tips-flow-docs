@@ -51,8 +51,8 @@
         "navbar": {
           "primary": {
             "type": "button",
-            "label": "Get the app",
-            "href": "https://crypto-tips.app"
+            "label": "Try it",
+            "href": "https://tips-flow.com/"
           }
         },
         "versions": [
@@ -128,8 +128,8 @@
         "navbar": {
           "primary": {
             "type": "button",
-            "label": "Obtener la app",
-            "href": "https://crypto-tips.app"
+            "label": "Pruébalo",
+            "href": "https://tips-flow.com/"
           }
         },
         "versions": [
@@ -181,8 +181,8 @@
         "navbar": {
           "primary": {
             "type": "button",
-            "label": "Uygulamayı indir",
-            "href": "https://crypto-tips.app"
+            "label": "Deneyin",
+            "href": "https://tips-flow.com/"
           }
         },
         "versions": [
