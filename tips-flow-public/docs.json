@@ -32,6 +32,7 @@
     "languages": [
       {
         "language": "en",
+        "href": "/",
         "navbar": {
           "primary": {
             "type": "button",
@@ -39,19 +40,76 @@
             "href": "https://crypto-tips.app"
           }
         },
-        "groups": [
+        "versions": [
           {
-            "group": "Getting started",
-            "pages": ["index"]
+            "version": "Latest",
+            "default": true,
+            "groups": [
+              {
+                "group": "Getting started",
+                "pages": ["index"]
+              },
+              {
+                "group": "For staff",
+                "pages": ["roles"]
+              },
+              {
+                "group": "Getting started (Nigeria)",
+                "pages": ["ng/index"]
+              },
+              {
+                "group": "For staff (Nigeria)",
+                "pages": ["ng/roles"]
+              }
+            ]
           },
           {
-            "group": "For staff",
-            "pages": ["roles"]
+            "version": "v1.0",
+            "groups": [
+              {
+                "group": "Getting started",
+                "pages": ["v1/index"]
+              },
+              {
+                "group": "For staff",
+                "pages": ["v1/roles"]
+              },
+              {
+                "group": "Getting started (Nigeria)",
+                "pages": ["v1/ng/index"]
+              },
+              {
+                "group": "For staff (Nigeria)",
+                "pages": ["v1/ng/roles"]
+              }
+            ]
+          },
+          {
+            "version": "v0.9",
+            "groups": [
+              {
+                "group": "Getting started",
+                "pages": ["v0.9/index"]
+              },
+              {
+                "group": "For staff",
+                "pages": ["v0.9/roles"]
+              },
+              {
+                "group": "Getting started (Nigeria)",
+                "pages": ["v0.9/ng/index"]
+              },
+              {
+                "group": "For staff (Nigeria)",
+                "pages": ["v0.9/ng/roles"]
+              }
+            ]
           }
         ]
       },
       {
         "language": "es",
+        "href": "/es",
         "navbar": {
           "primary": {
             "type": "button",
@@ -59,19 +117,52 @@
             "href": "https://crypto-tips.app"
           }
         },
-        "groups": [
+        "versions": [
           {
-            "group": "Primeros pasos",
-            "pages": ["es/index"]
+            "version": "Latest",
+            "default": true,
+            "groups": [
+              {
+                "group": "Primeros pasos",
+                "pages": ["es/index"]
+              },
+              {
+                "group": "Para el personal",
+                "pages": ["es/roles"]
+              }
+            ]
           },
           {
-            "group": "Para el personal",
-            "pages": ["es/roles"]
+            "version": "v1.0",
+            "groups": [
+              {
+                "group": "Primeros pasos",
+                "pages": ["v1/es/index"]
+              },
+              {
+                "group": "Para el personal",
+                "pages": ["v1/es/roles"]
+              }
+            ]
+          },
+          {
+            "version": "v0.9",
+            "groups": [
+              {
+                "group": "Primeros pasos",
+                "pages": ["v0.9/es/index"]
+              },
+              {
+                "group": "Para el personal",
+                "pages": ["v0.9/es/roles"]
+              }
+            ]
           }
         ]
       },
       {
         "language": "tr",
+        "href": "/tr",
         "navbar": {
           "primary": {
             "type": "button",
@@ -79,34 +170,46 @@
             "href": "https://crypto-tips.app"
           }
         },
-        "groups": [
+        "versions": [
           {
-            "group": "Başlarken",
-            "pages": ["tr/index"]
+            "version": "Latest",
+            "default": true,
+            "groups": [
+              {
+                "group": "Başlarken",
+                "pages": ["tr/index"]
+              },
+              {
+                "group": "Personel için",
+                "pages": ["tr/roles"]
+              }
+            ]
           },
           {
-            "group": "Personel için",
-            "pages": ["tr/roles"]
-          }
-        ]
-      },
-      {
-        "language": "ha",
-        "navbar": {
-          "primary": {
-            "type": "button",
-            "label": "Samu app",
-            "href": "https://crypto-tips.app"
-          }
-        },
-        "groups": [
-          {
-            "group": "How to start",
-            "pages": ["ng/index"]
+            "version": "v1.0",
+            "groups": [
+              {
+                "group": "Başlarken",
+                "pages": ["v1/tr/index"]
+              },
+              {
+                "group": "Personel için",
+                "pages": ["v1/tr/roles"]
+              }
+            ]
           },
           {
-            "group": "For staff",
-            "pages": ["ng/roles"]
+            "version": "v0.9",
+            "groups": [
+              {
+                "group": "Başlarken",
+                "pages": ["v0.9/tr/index"]
+              },
+              {
+                "group": "Personel için",
+                "pages": ["v0.9/tr/roles"]
+              }
+            ]
           }
         ]
       }
