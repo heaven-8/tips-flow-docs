@@ -1,0 +1,123 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "crypto-tips",
+  "description": "Public documentation for crypto-tips — USDC tips via QR codes for restaurants and hospitality.",
+  "colors": {
+    "primary": "#2563EB",
+    "light": "#3B82F6",
+    "dark": "#1D4ED8"
+  },
+  "metadata": {
+    "timestamp": true
+  },
+  "navigation": {
+    "global": {
+      "versions": [
+        {
+          "version": "Latest",
+          "href": "/",
+          "default": true
+        },
+        {
+          "version": "v1.0",
+          "href": "/v1"
+        },
+        {
+          "version": "v0.9",
+          "href": "/v0.9"
+        }
+      ]
+    },
+    "languages": [
+      {
+        "language": "en",
+        "navbar": {
+          "primary": {
+            "type": "button",
+            "label": "Get the app",
+            "href": "https://crypto-tips.app"
+          }
+        },
+        "groups": [
+          {
+            "group": "Getting started",
+            "pages": ["index"]
+          },
+          {
+            "group": "For staff",
+            "pages": ["roles"]
+          }
+        ]
+      },
+      {
+        "language": "es",
+        "navbar": {
+          "primary": {
+            "type": "button",
+            "label": "Obtener la app",
+            "href": "https://crypto-tips.app"
+          }
+        },
+        "groups": [
+          {
+            "group": "Primeros pasos",
+            "pages": ["es/index"]
+          },
+          {
+            "group": "Para el personal",
+            "pages": ["es/roles"]
+          }
+        ]
+      },
+      {
+        "language": "tr",
+        "navbar": {
+          "primary": {
+            "type": "button",
+            "label": "Uygulamayı indir",
+            "href": "https://crypto-tips.app"
+          }
+        },
+        "groups": [
+          {
+            "group": "Başlarken",
+            "pages": ["tr/index"]
+          },
+          {
+            "group": "Personel için",
+            "pages": ["tr/roles"]
+          }
+        ]
+      },
+      {
+        "language": "ha",
+        "navbar": {
+          "primary": {
+            "type": "button",
+            "label": "Samu app",
+            "href": "https://crypto-tips.app"
+          }
+        },
+        "groups": [
+          {
+            "group": "How to start",
+            "pages": ["ng/index"]
+          },
+          {
+            "group": "For staff",
+            "pages": ["ng/roles"]
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "socials": {
+      "github": "https://github.com/tips-flow"
+    }
+  },
+  "contextual": {
+    "options": ["copy", "view"]
+  }
+}
